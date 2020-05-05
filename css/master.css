@@ -8,6 +8,8 @@ body {
       }
 
 table {
+      margin-top: 30px;
+      margin-bottom: 50px;
       width: 800px;
       background-color: #2f2f2f;
       border-spacing: 0;
@@ -29,6 +31,15 @@ table {
 .Data-th1 {
           width: 350px;
           }
+
+.Data-th3 {
+          width: 180px;
+          }
+
+.search-th3 {
+            width: 220px;
+text-align: right;
+            }
 
 .tree-dots-th1 {
                 width: 50;
@@ -68,4 +79,17 @@ img {
 
 .name {
       padding-left: 10px;
+      }
+
+.triangle {
+          margin-left: 10px;
+          }
+
+.inbox {
+        width: 20px;.
+        }
+
+.dots {
+      text-align: right;
+      padding-right: 10px;
       }
