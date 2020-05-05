@@ -11,24 +11,61 @@ table {
       width: 800px;
       background-color: #2f2f2f;
       border-spacing: 0;
-      margin: 25px;
       border: 1px solid;
       border-color: #525252;
       border-radius: 10px;
       }
 
-th {
+.tr-th {
     color: white;
-    height: 30px;
     text-align: left;
-    padding: 10px;
     }
 
-.circle {
-    width: 4px;
-    height: 4px;
-    background: #818181;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-}
+.Name-th1 {
+          width: 400px;
+          padding-left: 10px;
+          }
+
+.Data-th1 {
+          width: 350px;
+          }
+
+.tree-dots-th1 {
+                width: 50;
+                }
+
+th {
+    border-bottom: 1px solid #555555;
+    }
+
+tr {
+    color: #818181;
+    height: 50px;
+    border-collapse: collapse;
+    }
+
+td {
+    border-bottom: 1px solid #555555;
+    border-collapse: collapse;
+    }
+
+.name {
+      color: white;
+      }
+
+.three-dots-th1 {
+        text-align: center;
+        width: 50px;
+        }
+
+.tree-dots {
+            width: 30px;
+            }
+
+img {
+    cursor: pointer;
+    }
+
+.name {
+      padding-left: 10px;
+      }
