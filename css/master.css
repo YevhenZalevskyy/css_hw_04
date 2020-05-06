@@ -42,10 +42,6 @@ table {
             text-align: right;
             }
 
-.tree-dots-th1 {
-                width: 50;
-                }
-
 th {
     border-bottom: 1px solid #555555;
     }
@@ -87,7 +83,7 @@ img {
           }
 
 .inbox {
-        width: 20px;.
+        width: 20px;
         }
 
 .dots {
@@ -103,8 +99,16 @@ img {
         background-color: #483737;
         border-style: hidden;
         color: #818181;
+        background-image: url('../icon/search-gr.svg');
+
+        background-position: left 5% center;
+        background-repeat: no-repeat;
         }
 
 input {
+  background-image: url(../icon/search-gr.svg);
+  background-size: 15px;
+  background-position: left 5% center;
+  background-repeat: no-repeat;
       padding-left: 10px;
       }
